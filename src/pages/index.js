@@ -1,115 +1,74 @@
 import Image from "next/image";
-import { Geist, Geist_Mono } from "next/font/google";
-
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
+import Navbar from "@/component/navbar";
+import Footer from "@/component/footer";
 
 export default function Home() {
   return (
-    <div
-      className={`${geistSans.className} ${geistMono.className} font-sans grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20`}
-    >
-      <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
+    <div>
+      <Navbar />
+      <div className="relative w-full md:h-[110vh] h-[100vh]">
         <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
+          src="/beranda.jpg" // ganti dengan path gambarnya
+          alt=""
+          fill
+          className="object-cover"
         />
-        <ol className="font-mono list-inside list-decimal text-sm/6 text-center sm:text-left">
-          <li className="mb-2 tracking-[-.01em]">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] font-mono font-semibold px-1 py-0.5 rounded">
-              src/pages/index.js
-            </code>
-            .
-          </li>
-          <li className="tracking-[-.01em]">
-            Save and see your changes instantly.
-          </li>
-        </ol>
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:w-auto"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 w-full sm:w-auto md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=default-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
+        <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-white to-transparent z-10" />
+        <div className="absolute inset-0 flex flex-col justify-center items-center text-white text-center px-4">
+          <h2 className="text-xl md:text-2xl lg:text-3xl font-light" data-aos='fade-up'>
+            Desa Harmoni <span className="font-bold">Budaya</span> dan <span className="font-bold">Alam</span>
+          </h2>
         </div>
-      </main>
-      <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=default-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=default-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=default-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
+      </div>
+
+      <div className="relative py-10 px-8 md:px-16 bg-white overflow-hidden">
+        <div className="absolute inset-0 bg-[url('/background.png')] bg-cover bg-center bg-[length:100%_100%] bg-repeat opacity-20 pointer-events-none z-0"></div>
+        <div className="relative z-10 justify-items-center">
+          <h2 className="text-xl md:text-3xl mb-6">
+            <span className="bg-[var(--oren)] text-white px-4 py-1 rounded-full" data-aos='fade-up'>
+              Kenali Desa <span className="font-bold">Tuksongo</span>
+            </span>
+          </h2>
+          <div className="flex flex-col xl:flex-row items-center gap-5 md:gap-10 justify-items-center">
+            <div className="w-48 h-48 md:w-72 md:h-72 rounded-full overflow-hidden border-8 border-[var(--oren)]" data-aos='fade-right'>
+              <Image
+                src="/beranda.jpg"
+                alt="Sawah"
+                width={400}
+                height={400}
+                className="object-cover w-full h-full"
+              />
+            </div>
+            <div className="text-justify leading-relaxed text-sm sm:text-base max-w-xl text-black" data-aos='fade-left'>
+              <p className="mb-2">
+                Desa <strong>Tuksongo</strong> adalah salah satu desa yang terletak di Kecamatan <strong>Borobudur</strong>, 
+                Kabupaten <strong>Magelang</strong>, <strong>Jawa Tengah</strong>. Berada di kawasan strategis yang berdekatan 
+                langsung dengan <strong> Candi Borobudur</strong> (salah satu warisan dunia <strong>UNESCO</strong>). Desa 
+                <strong> Tuksongo</strong> memiliki potensi besar dalam sektor budaya, pariwisata, dan pertanian.
+              </p>
+              <p className="mb-2">
+                Secara <strong>geografis</strong>, desa ini dikelilingi oleh panorama alam yang asri, dengan latar belakang 
+                <strong> pegunungan Menoreh</strong> serta hamparan sawah dan ladang tembakau yang menjadi salah satu komoditas 
+                utama masyarakat setempat. Tuksongo juga dikenal sebagai desa yang kaya akan nilai-nilai <strong>tradisional</strong>
+                , <strong>gotong royong</strong>, serta kegiatan <strong>seni-budaya</strong> seperti <strong>jathilan</strong> dan 
+                <strong> karawitan</strong>.
+              </p>
+              <p className="mb-2">
+                Masyarakat <strong>Tuksongo</strong> sebagian besar bermata pencaharian sebagai <strong>petani</strong>, pelaku 
+                <strong> UMKM</strong>, dan <strong>penggiat wisata</strong> berbasis komunitas. Dalam beberapa tahun terakhir, 
+                desa ini terus berkembang menjadi destinasi wisata alternatif yang menawarkan pengalaman otentik, mulai dari 
+                <strong> homestay, kerajinan lokal</strong>, hingga wisata budaya dan edukatif.
+              </p>
+              <p>
+                Dengan semangat partisipatif dan potensi yang dimiliki, Desa <strong>Tuksongo</strong> kini menjadi bagian penting 
+                dalam pengembangan <strong>kawasan Borobudur</strong> sebagai destinasi pariwisata berkelanjutan berbasis masyarakat.
+              </p>
+              {/* kamu bisa lanjutkan sesuai isi teks kamu */}
+            </div>
+          </div>
+        </div>
+      </div>
+      <Footer />
     </div>
   );
 }
