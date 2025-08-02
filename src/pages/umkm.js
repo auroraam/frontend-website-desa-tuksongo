@@ -269,11 +269,11 @@ export default function UMKM() {
               </div>
               <div className="w-sm md:w-lg flex flex-row justify-start items-center gap-5 text-left border border-[var(--ijo)] border-2 text-black p-3 rounded-lg relative shadow-md" data-aos="fade-up">
                 <p className="text-lg font-bold text-white bg-[var(--ijo)] p-2 rounded-full">02</p>
-                <h2 className="text-base md:text-lg mb-1">Pilih menu “UMK atau  Non UMK”</h2>
+                <h2 className="text-base md:text-lg mb-1">Pilih menu &quot;UMK atau Non UMK&quot;</h2>
               </div>
               <div className="w-sm md:w-lg flex flex-row justify-start items-center gap-5 text-left border border-[var(--ijo)] border-2 text-black p-3 rounded-lg relative shadow-md" data-aos="fade-up">
                 <p className="text-lg font-bold text-white bg-[var(--ijo)] p-2 rounded-full">03</p>
-                <h2 className="text-base md:text-lg mb-1">Pilih “Jenis Pelaku Usaha”</h2>
+                <h2 className="text-base md:text-lg mb-1">Pilih &quot;Jenis Pelaku Usaha&quot;</h2>
               </div>
               <div className="w-sm md:w-lg flex flex-row justify-start items-center gap-5 text-left border border-[var(--ijo)] border-2 text-black p-3 rounded-lg relative shadow-md" data-aos="fade-up">
                 <p className="text-lg font-bold text-white bg-[var(--ijo)] p-2 rounded-full">04</p>
@@ -285,7 +285,7 @@ export default function UMKM() {
               </div>
               <div className="w-sm md:w-lg flex flex-row justify-start items-center gap-5 text-left border border-[var(--ijo)] border-2 text-black p-3 rounded-lg relative shadow-md" data-aos="fade-up">
                 <p className="text-lg font-bold text-white bg-[var(--ijo)] p-2 rounded-full">06</p>
-                <h2 className="text-base md:text-lg mb-1">Klik “Tombol Aktivasi”</h2>
+                <h2 className="text-base md:text-lg mb-1">Klik &quot;Tombol Aktivasi&quot;</h2>
               </div>
             </div>
             <h1 className="text-lg md:text-xl text-black p-1">
@@ -294,7 +294,7 @@ export default function UMKM() {
             <div className="flex flex-col xl:max-w-xl max-w-lg gap-3 justify-items-center items-center">
               <div className="w-sm md:w-lg flex flex-row justify-start items-center gap-5 text-left border border-[var(--ijo)] border-2 text-black p-3 rounded-lg relative shadow-md" data-aos="fade-up">
                 <p className="text-lg font-bold text-white bg-[var(--ijo)] p-2 rounded-full">01</p>
-                <h2 className="text-base md:text-lg mb-1">Kunjungi laman www.oss.go.id Pilih "Masuk"</h2>
+                <h2 className="text-base md:text-lg mb-1">Kunjungi laman www.oss.go.id Pilih &quot;Masuk&quot;</h2>
               </div>
               <div className="w-sm md:w-lg flex flex-row justify-start items-center gap-5 text-left border border-[var(--ijo)] border-2 text-black p-3 rounded-lg relative shadow-md" data-aos="fade-up">
                 <p className="text-lg font-bold text-white bg-[var(--ijo)] p-2 rounded-full">02</p>
@@ -302,11 +302,11 @@ export default function UMKM() {
               </div>
               <div className="w-sm md:w-lg flex flex-row justify-start items-center gap-5 text-left border border-[var(--ijo)] border-2 text-black p-3 rounded-lg relative shadow-md" data-aos="fade-up">
                 <p className="text-lg font-bold text-white bg-[var(--ijo)] p-2 rounded-full">03</p>
-                <h2 className="text-base md:text-lg mb-1">Klik Menu “Perizinan Berusaha”</h2>
+                <h2 className="text-base md:text-lg mb-1">Klik Menu &quot;Perizinan Berusaha&quot;</h2>
               </div>
               <div className="w-sm md:w-lg flex flex-row justify-start items-center gap-5 text-left border border-[var(--ijo)] border-2 text-black p-3 rounded-lg relative shadow-md" data-aos="fade-up">
                 <p className="text-lg font-bold text-white bg-[var(--ijo)] p-2 rounded-full">04</p>
-                <h2 className="text-base md:text-lg mb-1">Pilih “Permohonan Baru”</h2>
+                <h2 className="text-base md:text-lg mb-1">Pilih &quot;Permohonan Baru&quot;</h2>
               </div>
               <div className="w-sm md:w-lg flex flex-row justify-start items-center gap-5 text-left border border-[var(--ijo)] border-2 text-black p-3 rounded-lg relative shadow-md" data-aos="fade-up">
                 <p className="text-lg font-bold text-white bg-[var(--ijo)] p-2 rounded-full">05</p>
@@ -322,7 +322,7 @@ export default function UMKM() {
               </div>
               <div className="w-sm md:w-lg flex flex-row justify-start items-center gap-5 text-left border border-[var(--ijo)] border-2 text-black p-3 rounded-lg relative shadow-md" data-aos="fade-up">
                 <p className="text-lg font-bold text-white bg-[var(--ijo)] p-2 rounded-full">08</p>
-                <h2 className="text-base md:text-lg mb-1">Pahami dan centang "Pernyataan Mandiri" dan Periksa draf perizinan berusaha </h2>
+                <h2 className="text-base md:text-lg mb-1">Pahami dan centang &quot;Pernyataan Mandiri&quot; dan Periksa draf perizinan berusaha</h2>
               </div>
               <div className="w-sm md:w-lg flex flex-row justify-start items-center gap-5 text-left border border-[var(--ijo)] border-2 text-black p-3 rounded-lg relative shadow-md" data-aos="fade-up">
                 <p className="text-lg font-bold text-white bg-[var(--ijo)] p-2 rounded-full">09</p>
@@ -391,7 +391,7 @@ export default function UMKM() {
                     className="absolute top-0 -translate-y-1/2 left-1/2 transform -translate-x-1/2 w-20 h-20 object-contain"
                   />
                   <h2 className="font-semibold md:text-md text-sm mb-1 mt-9 text-center">Modus Investasi Gotong Royong</h2>
-                  <h2 className="text-justify md:text-md text-sm mb-1 text-center flex-grow">Korban diajak gabung komunitas “UMKM sukses” dengan janji keuntungan besar, tetapi ternyata skema tipu-tipu seperti arisan bodong.</h2>
+                  <h2 className="text-justify md:text-md text-sm mb-1 text-center flex-grow">Korban diajak gabung komunitas &quot;UMKM sukses&quot; dengan janji keuntungan besar, tetapi ternyata skema tipu-tipu seperti arisan bodong.</h2>
                 </div>
               </div>
               <div className="md:min-w-3xl min-w-md gap-10 md:gap-5 md:justify-between items-stretch mt-7 flex flex-col md:flex-row">
@@ -420,9 +420,9 @@ export default function UMKM() {
               Ciri & Tanda <strong>Bahaya</strong>
             </h1>
             <div className="flex flex-row flex-wrap justify-center gap-5">
-              <FlipCard title="Janji Keuntungan Tidak Masuk Akal" description="“Cukup setor Rp100.000, dapat alat usaha dan modal Rp1 juta.”" color="var(--ijo)" />
+              <FlipCard title="Janji Keuntungan Tidak Masuk Akal" description="&quot;Cukup setor Rp100.000, dapat alat usaha dan modal Rp1 juta.&quot;" color="var(--ijo)" />
               <FlipCard title="Permintaan Informasi Pribadi Sensitif" description="Meminta OTP, PIN, password, nomor rekening, atau NIK lengkap via chat atau form tidak resmi." color="var(--ijo)" />
-              <FlipCard title="Desakan Untuk Transfer Secepatnya" description="“Hari ini terakhir. Kalau lewat, kamu rugi sendiri.”" color="var(--ijo)" />
+              <FlipCard title="Desakan Untuk Transfer Secepatnya" description="&quot;Hari ini terakhir. Kalau lewat, kamu rugi sendiri.&quot;" color="var(--ijo)" />
               <FlipCard title="Sumber Informasi Tidak Bisa Diverifikasi" description="Link pendek (bit.ly), WA broadcast dari nomor tak dikenal, tidak ada situs resmi." color="var(--ijo)" />
               <FlipCard title="Penggunaan Logo Instansi Tanpa Izin" description="Logo dinas, desa, atau bank yang buram/tidak sesuai." color="var(--ijo)" />
               <FlipCard title="Minim Transparansi dan Detail" description="Saat ditanya detail program, pelaku mengalihkan, marah, atau menekan korban." color="var(--ijo)" />
@@ -447,35 +447,35 @@ export default function UMKM() {
                     src="/warn.png" 
                     className="absolute top-0 -translate-y-1/2 left-1/2 transform -translate-x-1/2 w-10 h-10 object-contain"
                   />
-                  <h2 className="font-semibold md:text-md text-sm mt-3 text-center">Jangan Langsung Percaya!</h2>
+                  <h2 className="font-semibold md:text-md text-sm mt-3 text-center">Jangan Berikan Data Pribadi!</h2>
                 </div>
                 <div className="flex flex-col max-w-3xs text-black p-3 rounded-lg border border-[var(--ijo)] border-2 relative">
                   <img 
                     src="/warn.png" 
                     className="absolute top-0 -translate-y-1/2 left-1/2 transform -translate-x-1/2 w-10 h-10 object-contain"
                   />
-                  <h2 className="font-semibold md:text-md text-sm mt-3 text-center">Jangan Langsung Percaya!</h2>
+                  <h2 className="font-semibold md:text-md text-sm mt-3 text-center">Blokir dan Tandai Nomor Penipu!</h2>
                 </div>
                 <div className="flex flex-col max-w-3xs text-black p-3 rounded-lg border border-[var(--ijo)] border-2 relative">
                   <img 
                     src="/warn.png" 
                     className="absolute top-0 -translate-y-1/2 left-1/2 transform -translate-x-1/2 w-10 h-10 object-contain"
                   />
-                  <h2 className="font-semibold md:text-md text-sm mt-3 text-center">Jangan Langsung Percaya!</h2>
+                  <h2 className="font-semibold md:text-md text-sm mt-3 text-center">Jangan Sebarkan Informasi Tidak Jelas!</h2>
                 </div>
                 <div className="flex flex-col max-w-3xs text-black p-3 rounded-lg border border-[var(--ijo)] border-2 relative">
                   <img 
                     src="/warn.png" 
                     className="absolute top-0 -translate-y-1/2 left-1/2 transform -translate-x-1/2 w-10 h-10 object-contain"
                   />
-                  <h2 className="font-semibold md:text-md text-sm mt-3 text-center">Jangan Langsung Percaya!</h2>
+                  <h2 className="font-semibold md:text-md text-sm mt-3 text-center">Lapor ke Perangkat Desa!</h2>
                 </div>
                 <div className="flex flex-col max-w-3xs text-black p-3 rounded-lg border border-[var(--ijo)] border-2 relative">
                   <img 
                     src="/warn.png" 
                     className="absolute top-0 -translate-y-1/2 left-1/2 transform -translate-x-1/2 w-10 h-10 object-contain"
                   />
-                  <h2 className="font-semibold md:text-md text-sm mt-3 text-center">Jangan Langsung Percaya!</h2>
+                  <h2 className="font-semibold md:text-md text-sm mt-3 text-center">Lapor ke Situs Resmi!</h2>
                 </div>
                 
               </div>

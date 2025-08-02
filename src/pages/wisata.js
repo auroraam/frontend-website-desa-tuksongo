@@ -123,11 +123,11 @@ export default function Wisata() {
       const wisata = res.data.pariwisatas || [];
       const grouped = {};
       paketNames.forEach((namaPaket) => {
-        grouped[namaPaket] = wisata
-          .filter((w) => 
-            w.jenis_pariwisata.toLowerCase() === namaPaket.toLowerCase() &&
-            w.approval_pariwisata?.toLowerCase() === "disetujui")
-          .map((w) => w);
+        grouped[namaPaket] = wisata.filter((w) => {
+          const jenis = w.jenis_pariwisata?.toLowerCase();
+          const approval = w.approval_pariwisata?.toLowerCase();
+          return jenis === namaPaket.toLowerCase() && approval === "disetujui";
+        });
       });
       setDataWisata(wisata);
       setPaketGrouped(grouped);
@@ -493,12 +493,12 @@ export default function Wisata() {
             <h1 className="font-semibold text-xs md:text-sm mb-4 mt-4 text-[var(--biru)] bg-white p-2 rounded-full shadow-black shadow-lg/40 w-fit">
               Daftar Pustaka
             </h1>
-            <p className="text-[var(--biru)]">
-              <span className="block text-justify">• Djuwendah, E., Karyani, T., Wulandari, E., & Pradono, P. (2023). Community-based agro-ecotourism sustainability in west java, indonesia. Sustainability, 15(13), 10432.</span>
+            <p className="text-[var(--biru)] text-xs">
+              <span className="block text-justify">• Djuwendah, E., Karyani, T., Wulandari, E., &amp; Pradono, P. (2023). Community-based agro-ecotourism sustainability in west java, indonesia. Sustainability, 15(13), 10432.</span>
               <span className="block text-justify">• Kia, Z. (2021). Ecotourism in Indonesia: Local community involvement and the affecting factors. Journal of Governance and Public Policy, 8(2), 93-105.</span>
-              <span className="block text-justify">• Kumar, P., Desai, A. R., Arunachalam, V., Gupta, M. J., Paramesha, V., Rajkumar, R. S., ... & Janjal, A. V. (2021). A conceptual framework for agro–ecotourism development for livelihood security. Indian Journal of Agronomy, 66, 184-190.</span>
-              <span className="block text-justify">• Mustafayeva, S., & Gasimova, A. (2023). The role and significance of agro-eco parks in the development of agroeco tourism. The Scientific Heritage, (105), 97-99.</span>
-              <span className="block text-justify">• Suryandari, R. T., Wicaksono, R. L., & Agustina, A. (2020, July). Is agro-ecotourism approach a potential to support climate change mitigation?. In IOP Conference Series: Earth and Environmental Science (Vol. 528, No. 1, p. 012055). IOP Publishing.</span>
+              <span className="block text-justify">• Kumar, P., Desai, A. R., Arunachalam, V., Gupta, M. J., Paramesha, V., Rajkumar, R. S., ... &amp; Janjal, A. V. (2021). A conceptual framework for agro–ecotourism development for livelihood security. Indian Journal of Agronomy, 66, 184-190.</span>
+              <span className="block text-justify">• Mustafayeva, S., &amp; Gasimova, A. (2023). The role and significance of agro-eco parks in the development of agroeco tourism. The Scientific Heritage, (105), 97-99.</span>
+              <span className="block text-justify">• Suryandari, R. T., Wicaksono, R. L., &amp; Agustina, A. (2020, July). Is agro-ecotourism approach a potential to support climate change mitigation?. In IOP Conference Series: Earth and Environmental Science (Vol. 528, No. 1, p. 012055). IOP Publishing.</span>
             </p>
           </div>
         </div>

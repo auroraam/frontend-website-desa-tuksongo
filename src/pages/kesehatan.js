@@ -4,7 +4,7 @@ import Footer from "@/component/footer";
 import { useState } from "react";
 import FlipCard from "@/component/flipCard";
 
-export default function kesehatan() {
+export default function Kesehatan() {
   const [activeStatistik, setActiveStatistik] = useState("Magelang");
   const isActive = (name) => activeStatistik === name;
 
@@ -170,7 +170,7 @@ export default function kesehatan() {
                 </div>
               </div>
               {activeCara === "Nutrisi" && (
-                <p className="mt-4 text-sm sm:text-base max-w-xl text-[var(--coklat)] text-justify">Memberikan makanan <strong>bergizi lengkap dan seimbang</strong> untuk anak dan ibu hamil agar kebutuhan nutrisi terpenuhi, diantaranya dengan memberikan <strong>ASI eksklusif</strong> 6 bulan dan dilanjutkan sampai 2 tahun, <strong>MPASI bergizi tinggi</strong> dengan komposisi lengkap mulai usia 6 bulan, menerapkan <strong>"Isi Piringku"</strong> dengan gizi seimbang, menyusun menu harian yang kaya akan protein, vitamin, dan mineral seperti sayur, buah, sumber karbohidrat kompleks, dan protein hewani, memberikan suplemen vitamin dan mineral.</p>
+                <p className="mt-4 text-sm sm:text-base max-w-xl text-[var(--coklat)] text-justify">Memberikan makanan <strong>bergizi lengkap dan seimbang</strong> untuk anak dan ibu hamil agar kebutuhan nutrisi terpenuhi, diantaranya dengan memberikan <strong>ASI eksklusif</strong> 6 bulan dan dilanjutkan sampai 2 tahun, <strong>MPASI bergizi tinggi</strong> dengan komposisi lengkap mulai usia 6 bulan, menerapkan <strong>&quot;Isi Piringku&quot;</strong> dengan gizi seimbang, menyusun menu harian yang kaya akan protein, vitamin, dan mineral seperti sayur, buah, sumber karbohidrat kompleks, dan protein hewani, memberikan suplemen vitamin dan mineral.</p>
               )}
               {activeCara === "Sanitasi" && (
                 <p className="mt-4 text-sm sm:text-base max-w-xl text-[var(--coklat)] text-justify">Dengan <strong>sanitasi yang memadai</strong> dapat mengurangi infeksi dan penyakit yang mempengaruhi penyerapan nutrisi. Hal yang dapat dilakukan diantaranya <strong>constructing jamban</strong> sehat dan memastikan penggunaannya secara rutin, menyediakan <strong>sumber air bersih</strong> yang layak dan meningkatkan kesadaran menjaga kebersihan lingkungan, cuci tangan pakai sabun, pola hidup bersih di lingkungan rumah, <strong>pengelolaan limbah</strong> yang baik</p>
@@ -190,7 +190,7 @@ export default function kesehatan() {
             </h1>
             <div className="leading-relaxed text-sm sm:text-base max-w-xl text-[var(--coklat)] text-center" data-aos="fade-up">
               <p className="mb-2"><strong>Gizi seimbang</strong> adalah pola makan yang mencakup <strong>semua zat gizi</strong> yang diperlukan untuk pertumbuhan optimal anak, terutama dalam 1.000 hari pertama kehidupan. Penerapan gizi seimbang dapat <strong>mencegah stunting</strong> dengan memastikan asupan <strong>nutrisi</strong> yang cukup dan berkualitas, serta mendukung perkembangan fisik dan kognitif anak.</p>
-              <p className="mb-2">Untuk mempermudah penerapan gizi seimbang dalam kehidupan sehari-hari, <strong>Kementerian Kesehatan RI</strong> memperkenalkan panduan <strong>“Isi Piringku”</strong>. Panduan ini membantu masyarakat memahami porsi makan yang tepat agar kebutuhan gizi tercukupi, khususnya bagi anak-anak pada <strong>masa tumbuh kembang</strong>, sehingga dapat membantu mencegah stunting sejak dini.</p>
+              <p className="mb-2">Untuk mempermudah penerapan gizi seimbang dalam kehidupan sehari-hari, <strong>Kementerian Kesehatan RI</strong> memperkenalkan panduan <strong>&quot;Isi Piringku&quot;</strong>. Panduan ini membantu masyarakat memahami porsi makan yang tepat agar kebutuhan gizi tercukupi, khususnya bagi anak-anak pada <strong>masa tumbuh kembang</strong>, sehingga dapat membantu mencegah stunting sejak dini.</p>
             </div>
           </div>
 
@@ -218,7 +218,7 @@ export default function kesehatan() {
                 className="object-contain mx-auto"
               />
             </div>
-            <p className="text-sm sm:text-base mb-4 text-center text-lg md:text-xl text-[var(--coklat)] mb-2"><strong>Fakta Penting:</strong> 1.000 Hari Pertama Kehidupan (mulai dari kandungan hingga usia 2 tahun) adalah periode kritis pencegahan stunting. Penerapan <strong>"Isi Piringku"</strong> sejak masa kehamilan hingga anak usia balita memberikan manfaat optimal untuk pertumbuhan anak.</p>
+            <p className="text-sm sm:text-base mb-4 text-center text-lg md:text-xl text-[var(--coklat)] mb-2"><strong>Fakta Penting:</strong> 1.000 Hari Pertama Kehidupan (mulai dari kandungan hingga usia 2 tahun) adalah periode kritis pencegahan stunting. Penerapan <strong>&quot;Isi Piringku&quot;</strong> sejak masa kehamilan hingga anak usia balita memberikan manfaat optimal untuk pertumbuhan anak.</p>
           </div>
         </div>
 
@@ -297,7 +297,7 @@ export default function kesehatan() {
                   Penyediaan tempat khusus merokok yang merupakan ruang terbuka dan berhubungan langsung dengan udara luar.
                 </li>
                 <li>
-                  Penempatan tanda sederhana “Area Bebas Asap” di ruang tertutup dan di wilayah yang berdekatan dengan kelompok rentan
+                  Penempatan tanda sederhana &quot;Area Bebas Asap&quot; di ruang tertutup dan di wilayah yang berdekatan dengan kelompok rentan
                   seperti anak-anak, ibu hamil, penderita asma, dan lansia.
                 </li>
                 <li>
@@ -353,7 +353,7 @@ export default function kesehatan() {
 
           <div className="md:max-w-md max-w-sm justify-items-center p-5" data-aos="fade-up">
             <div className="leading-relaxed text-sm max-w-xl text-[var(--coklat)] text-center" data-aos="fade-up">
-              <p className="font-semibold italic">“Pariwisata yang sehat dimulai dari udara yang bersih dan sikap saling menghormati.”</p>
+              <p className="font-semibold italic">&quot;Pariwisata yang sehat dimulai dari udara yang bersih dan sikap saling menghormati.&quot;</p>
               <p className="font-light mb-2 xl:mb-0"> Mari kita jaga bersama kenyamanan desa agar selalu menjadi tujuan wisata yang ramah anak, ramah lingkungan, dan berkesan bagi semua.</p>
             </div>
           </div>
