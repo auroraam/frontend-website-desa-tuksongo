@@ -345,7 +345,9 @@ export default function Wisata() {
                   dataWisata
                   .filter(item => item.approval_pariwisata !== "Disetujui")
                   .map((item, index) => (
-                    <tr className='hover:bg-gray-100 bg-white cursor-pointer text-black'
+                    <tr 
+                      key={item.id || index}
+                      className='hover:bg-gray-100 bg-white cursor-pointer text-black'
                       onClick={() => handleRowClick(item)}>
                       <td className='p-3'>{index + 1}</td>
                       <td className='p-3'>{item.nama_pariwisata}</td>
