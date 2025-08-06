@@ -26,7 +26,7 @@ const wisataList = [
   {
     img: "/Sumber Sembilan.png",
     nama: "Sumber Sembilan",
-    deskripsi: "Super Sembilan memproduksi camilan homemade dengan rasa gurih khas, seperti basreng original dan keripik pangsit cumi. Produk Sumber Sembilan telah dipasarkan ke berbagai kota melalui reseller, membuktikan kualitas dan cita rasa yang dipercaya banyak pelanggan.",
+    deskripsi: "Sumber Sembilan memproduksi camilan homemade dengan rasa gurih khas, seperti basreng original dan keripik pangsit cumi. Produk Sumber Sembilan telah dipasarkan ke berbagai kota melalui reseller, membuktikan kualitas dan cita rasa yang dipercaya banyak pelanggan.",
     deskripsiEng: ""
   },
   {
@@ -118,7 +118,7 @@ export default function UMKM() {
       <div className="relative py-10 px-8 md:px-16 bg-white overflow-hidden">
         <div className="absolute inset-0 bg-[url('/background.png')] bg-cover bg-center bg-[length:100%_100%] bg-repeat opacity-20 pointer-events-none z-0"></div>
         <div className="relative z-10 justify-items-center">
-          <h2 className="text-xl md:text-3xl mb-4">
+          <h2 className="text-lg md:text-3xl mb-4">
             <span className="bg-[var(--ijo)] text-white px-4 py-1 rounded-full" data-aos='fade-up'>
               UMKM Desa <span className="font-bold">Tuksongo</span>
             </span>
@@ -159,7 +159,7 @@ export default function UMKM() {
           </div>
 
           <div className="relative z-10 items-center justify-items-center">
-            <h2 className="text-xl md:text-3xl mb-4 mt-5">
+            <h2 className="text-lg md:text-3xl mb-4 mt-5">
               <span className="bg-[var(--ijo)] text-white px-4 py-1 rounded-full" data-aos='fade-up'>
                 Tutorial Pendaftaran <span className="font-bold">Qris</span>
               </span>
@@ -176,7 +176,7 @@ export default function UMKM() {
           </div>
 
           <div className="relative z-10 items-center justify-items-center">
-            <h2 className="text-xl md:text-3xl mb-4 mt-5">
+            <h2 className="text-lg md:text-3xl mb-4 mt-5">
               <span className="bg-[var(--ijo)] text-white px-4 py-1 rounded-full" data-aos='fade-up'>
                 UMKM <span className="font-bold">Izin Lengkap</span>
               </span>
@@ -263,76 +263,76 @@ export default function UMKM() {
               Pendaftaran Hak Akses di OSS
             </h1>
             <div className="flex flex-col xl:max-w-xl max-w-lg gap-3 justify-items-center items-center">
-              <div className="w-sm md:w-lg flex flex-row justify-start items-center gap-5 text-left border border-[var(--ijo)] border-2 text-black p-3 rounded-lg relative shadow-md" data-aos="fade-up">
+              <div className="w-xs md:w-lg flex flex-row justify-start items-center gap-5 text-left border border-[var(--ijo)] border-2 text-black p-3 rounded-lg relative shadow-md" data-aos="fade-up">
                 <p className="text-lg font-bold text-white bg-[var(--ijo)] p-2 rounded-full">01</p>
-                <h2 className="text-base md:text-lg mb-1">Kunjungi laman www.oss.go.id</h2>
+                <h2 className="text-sm md:text-lg mb-1">Kunjungi laman www.oss.go.id</h2>
               </div>
-              <div className="w-sm md:w-lg flex flex-row justify-start items-center gap-5 text-left border border-[var(--ijo)] border-2 text-black p-3 rounded-lg relative shadow-md" data-aos="fade-up">
+              <div className="w-xs md:w-lg flex flex-row justify-start items-center gap-5 text-left border border-[var(--ijo)] border-2 text-black p-3 rounded-lg relative shadow-md" data-aos="fade-up">
                 <p className="text-lg font-bold text-white bg-[var(--ijo)] p-2 rounded-full">02</p>
-                <h2 className="text-base md:text-lg mb-1">Pilih menu &quot;UMK atau Non UMK&quot;</h2>
+                <h2 className="text-sm md:text-lg mb-1">Pilih menu &quot;UMK atau Non UMK&quot;</h2>
               </div>
-              <div className="w-sm md:w-lg flex flex-row justify-start items-center gap-5 text-left border border-[var(--ijo)] border-2 text-black p-3 rounded-lg relative shadow-md" data-aos="fade-up">
+              <div className="w-xs md:w-lg flex flex-row justify-start items-center gap-5 text-left border border-[var(--ijo)] border-2 text-black p-3 rounded-lg relative shadow-md" data-aos="fade-up">
                 <p className="text-lg font-bold text-white bg-[var(--ijo)] p-2 rounded-full">03</p>
-                <h2 className="text-base md:text-lg mb-1">Pilih &quot;Jenis Pelaku Usaha&quot;</h2>
+                <h2 className="text-sm md:text-lg mb-1">Pilih &quot;Jenis Pelaku Usaha&quot;</h2>
               </div>
-              <div className="w-sm md:w-lg flex flex-row justify-start items-center gap-5 text-left border border-[var(--ijo)] border-2 text-black p-3 rounded-lg relative shadow-md" data-aos="fade-up">
+              <div className="w-xs md:w-lg flex flex-row justify-start items-center gap-5 text-left border border-[var(--ijo)] border-2 text-black p-3 rounded-lg relative shadow-md" data-aos="fade-up">
                 <p className="text-lg font-bold text-white bg-[var(--ijo)] p-2 rounded-full">04</p>
-                <h2 className="text-base md:text-lg mb-1">Masukkan NIK, Data Diri, Kode Captcha, dan Klik Daftar</h2>
+                <h2 className="text-sm md:text-lg mb-1">Masukkan NIK, Data Diri, Kode Captcha, dan Klik Daftar</h2>
               </div>
-              <div className="w-sm md:w-lg flex flex-row justify-start items-center gap-5 text-left border border-[var(--ijo)] border-2 text-black p-3 rounded-lg relative shadow-md" data-aos="fade-up">
+              <div className="w-xs md:w-lg flex flex-row justify-start items-center gap-5 text-left border border-[var(--ijo)] border-2 text-black p-3 rounded-lg relative shadow-md" data-aos="fade-up">
                 <p className="text-lg font-bold text-white bg-[var(--ijo)] p-2 rounded-full">05</p>
-                <h2 className="text-base md:text-lg mb-1">Cek E-mail untuk Proses Verifikasi dan Aktivasi</h2>
+                <h2 className="text-sm md:text-lg mb-1">Cek E-mail untuk Proses Verifikasi dan Aktivasi</h2>
               </div>
-              <div className="w-sm md:w-lg flex flex-row justify-start items-center gap-5 text-left border border-[var(--ijo)] border-2 text-black p-3 rounded-lg relative shadow-md" data-aos="fade-up">
+              <div className="w-xs md:w-lg flex flex-row justify-start items-center gap-5 text-left border border-[var(--ijo)] border-2 text-black p-3 rounded-lg relative shadow-md" data-aos="fade-up">
                 <p className="text-lg font-bold text-white bg-[var(--ijo)] p-2 rounded-full">06</p>
-                <h2 className="text-base md:text-lg mb-1">Klik &quot;Tombol Aktivasi&quot;</h2>
+                <h2 className="text-sm md:text-lg mb-1">Klik &quot;Tombol Aktivasi&quot;</h2>
               </div>
             </div>
             <h1 className="text-lg md:text-xl text-black p-1">
               Pendaftaran NIB di OSS
             </h1>
             <div className="flex flex-col xl:max-w-xl max-w-lg gap-3 justify-items-center items-center">
-              <div className="w-sm md:w-lg flex flex-row justify-start items-center gap-5 text-left border border-[var(--ijo)] border-2 text-black p-3 rounded-lg relative shadow-md" data-aos="fade-up">
+              <div className="w-xs md:w-lg flex flex-row justify-start items-center gap-5 text-left border border-[var(--ijo)] border-2 text-black p-3 rounded-lg relative shadow-md" data-aos="fade-up">
                 <p className="text-lg font-bold text-white bg-[var(--ijo)] p-2 rounded-full">01</p>
-                <h2 className="text-base md:text-lg mb-1">Kunjungi laman www.oss.go.id Pilih &quot;Masuk&quot;</h2>
+                <h2 className="text-sm md:text-lg mb-1">Kunjungi laman www.oss.go.id Pilih &quot;Masuk&quot;</h2>
               </div>
-              <div className="w-sm md:w-lg flex flex-row justify-start items-center gap-5 text-left border border-[var(--ijo)] border-2 text-black p-3 rounded-lg relative shadow-md" data-aos="fade-up">
+              <div className="w-xs md:w-lg flex flex-row justify-start items-center gap-5 text-left border border-[var(--ijo)] border-2 text-black p-3 rounded-lg relative shadow-md" data-aos="fade-up">
                 <p className="text-lg font-bold text-white bg-[var(--ijo)] p-2 rounded-full">02</p>
-                <h2 className="text-base md:text-lg mb-1">Masukkan Username, Password, dan Kode Captcha</h2>
+                <h2 className="text-sm md:text-lg mb-1">Masukkan Username, Password, dan Kode Captcha</h2>
               </div>
-              <div className="w-sm md:w-lg flex flex-row justify-start items-center gap-5 text-left border border-[var(--ijo)] border-2 text-black p-3 rounded-lg relative shadow-md" data-aos="fade-up">
+              <div className="w-xs md:w-lg flex flex-row justify-start items-center gap-5 text-left border border-[var(--ijo)] border-2 text-black p-3 rounded-lg relative shadow-md" data-aos="fade-up">
                 <p className="text-lg font-bold text-white bg-[var(--ijo)] p-2 rounded-full">03</p>
-                <h2 className="text-base md:text-lg mb-1">Klik Menu &quot;Perizinan Berusaha&quot;</h2>
+                <h2 className="text-sm md:text-lg mb-1">Klik Menu &quot;Perizinan Berusaha&quot;</h2>
               </div>
-              <div className="w-sm md:w-lg flex flex-row justify-start items-center gap-5 text-left border border-[var(--ijo)] border-2 text-black p-3 rounded-lg relative shadow-md" data-aos="fade-up">
+              <div className="w-xs md:w-lg flex flex-row justify-start items-center gap-5 text-left border border-[var(--ijo)] border-2 text-black p-3 rounded-lg relative shadow-md" data-aos="fade-up">
                 <p className="text-lg font-bold text-white bg-[var(--ijo)] p-2 rounded-full">04</p>
-                <h2 className="text-base md:text-lg mb-1">Pilih &quot;Permohonan Baru&quot;</h2>
+                <h2 className="text-sm md:text-lg mb-1">Pilih &quot;Permohonan Baru&quot;</h2>
               </div>
-              <div className="w-sm md:w-lg flex flex-row justify-start items-center gap-5 text-left border border-[var(--ijo)] border-2 text-black p-3 rounded-lg relative shadow-md" data-aos="fade-up">
+              <div className="w-xs md:w-lg flex flex-row justify-start items-center gap-5 text-left border border-[var(--ijo)] border-2 text-black p-3 rounded-lg relative shadow-md" data-aos="fade-up">
                 <p className="text-lg font-bold text-white bg-[var(--ijo)] p-2 rounded-full">05</p>
-                <h2 className="text-base md:text-lg mb-1">Lengkapi data pelaku usaha, bidang usaha, detail bidang usaha, dan produk/jasa bidang usaha</h2>
+                <h2 className="text-sm md:text-lg mb-1">Lengkapi data pelaku usaha, bidang usaha, detail bidang usaha, dan produk/jasa bidang usaha</h2>
               </div>
-              <div className="w-sm md:w-lg flex flex-row justify-start items-center gap-5 text-left border border-[var(--ijo)] border-2 text-black p-3 rounded-lg relative shadow-md" data-aos="fade-up">
+              <div className="w-xs md:w-lg flex flex-row justify-start items-center gap-5 text-left border border-[var(--ijo)] border-2 text-black p-3 rounded-lg relative shadow-md" data-aos="fade-up">
                 <p className="text-lg font-bold text-white bg-[var(--ijo)] p-2 rounded-full">06</p>
-                <h2 className="text-base md:text-lg mb-1">Periksa daftar produk/jasa, data usaha, dan daftar kegiatan usaha</h2>
+                <h2 className="text-sm md:text-lg mb-1">Periksa daftar produk/jasa, data usaha, dan daftar kegiatan usaha</h2>
               </div>
-              <div className="w-sm md:w-lg flex flex-row justify-start items-center gap-5 text-left border border-[var(--ijo)] border-2 text-black p-3 rounded-lg relative shadow-md" data-aos="fade-up">
+              <div className="w-xs md:w-lg flex flex-row justify-start items-center gap-5 text-left border border-[var(--ijo)] border-2 text-black p-3 rounded-lg relative shadow-md" data-aos="fade-up">
                 <p className="text-lg font-bold text-white bg-[var(--ijo)] p-2 rounded-full">07</p>
-                <h2 className="text-base md:text-lg mb-1">Periksa dan lengkapi dokumen persetujuan lingkungan</h2>
+                <h2 className="text-sm md:text-lg mb-1">Periksa dan lengkapi dokumen persetujuan lingkungan</h2>
               </div>
-              <div className="w-sm md:w-lg flex flex-row justify-start items-center gap-5 text-left border border-[var(--ijo)] border-2 text-black p-3 rounded-lg relative shadow-md" data-aos="fade-up">
+              <div className="w-xs md:w-lg flex flex-row justify-start items-center gap-5 text-left border border-[var(--ijo)] border-2 text-black p-3 rounded-lg relative shadow-md" data-aos="fade-up">
                 <p className="text-lg font-bold text-white bg-[var(--ijo)] p-2 rounded-full">08</p>
-                <h2 className="text-base md:text-lg mb-1">Pahami dan centang &quot;Pernyataan Mandiri&quot; dan Periksa draf perizinan berusaha</h2>
+                <h2 className="text-sm md:text-lg mb-1">Pahami dan centang &quot;Pernyataan Mandiri&quot; dan Periksa draf perizinan berusaha</h2>
               </div>
-              <div className="w-sm md:w-lg flex flex-row justify-start items-center gap-5 text-left border border-[var(--ijo)] border-2 text-black p-3 rounded-lg relative shadow-md" data-aos="fade-up">
+              <div className="w-xs md:w-lg flex flex-row justify-start items-center gap-5 text-left border border-[var(--ijo)] border-2 text-black p-3 rounded-lg relative shadow-md" data-aos="fade-up">
                 <p className="text-lg font-bold text-white bg-[var(--ijo)] p-2 rounded-full">09</p>
-                <h2 className="text-base md:text-lg mb-1">Perizinan NIB Terbit</h2>
+                <h2 className="text-sm md:text-lg mb-1">Perizinan NIB Terbit</h2>
               </div>
             </div>
           </div>
 
           <div className="relative z-10 items-center justify-items-center">
-            <h2 className="text-2xl md:text-3xl mb-4 mt-5">
+            <h2 className="text-lg md:text-3xl mb-4 mt-5">
               <span className="bg-[var(--ijo)] text-white px-4 py-1 rounded-full" data-aos='fade-up'>
                 UMKM <span className="font-bold">Jangan Tertipu!</span>
               </span>
@@ -363,21 +363,21 @@ export default function UMKM() {
             </h1>
           </div>
 
-          <div className="flex flex-col gap-3 xl:max-w-xl max-w-lg items-center justify-items-center" data-aos="fade-up">
+          <div className="flex flex-col gap-3 xl:max-w-3xl max-w-lg items-center justify-items-center" data-aos="fade-up">
             <h1 className="text-lg md:text-xl mb-4 mt-4 text-[var(--ijo)] bg-white p-2 rounded-full shadow-black shadow-lg/40 w-fit">
               Kenali <strong>Modusnya</strong>
             </h1>
             <div className="flex flex-col gap-5">
-              <div className="md:min-w-3xl min-w-md gap-10 md:gap-5 md:justify-between items-stretch mt-7 flex flex-col md:flex-row">
-                <div className="flex flex-col w-fit text-black p-4 rounded-lg bg-gray-300 relative transition-transform duration-300 hover:scale-110">
+              <div className="gap-10 md:gap-5 justify-center items-center md:items-stretch mt-7 flex flex-col md:flex-row">
+                <div className="md:w-full w-xs flex flex-col w-fit text-black p-4 rounded-lg bg-gray-300 relative transition-transform duration-300 hover:scale-110">
                   <img 
                     src="/umkm-modus 1.png" 
                     className="absolute top-0 -translate-y-1/2 left-1/2 transform -translate-x-1/2 w-20 h-20 object-contain"
                   />
                   <h2 className="font-semibold md:text-md text-sm mb-1 mt-9 text-center">Modus Pelatihan UMKM Palsu</h2>
-                  <h2 className="text-justify md:text-md text-sm mb-1 text-center flex-grow">Penipu mengaku dari lembaga resmi, menjanjikan pelatihan bersertifikat dan bantuan modal, lalu meminta data pribadi lewat link palsu.</h2>
+                  <h2 className="text-justify md:text-md text-sm mb-1 flex-grow">Penipu mengaku dari lembaga resmi, menjanjikan pelatihan bersertifikat dan bantuan modal, lalu meminta data pribadi lewat link palsu.</h2>
                 </div>
-                <div className="flex flex-col w-fit text-black p-4 rounded-lg bg-gray-300 relative transition-transform duration-300 hover:scale-110">
+                <div className="md:w-full w-xs flex flex-col w-fit text-black p-4 rounded-lg bg-gray-300 relative transition-transform duration-300 hover:scale-110">
                   <img 
                     src="/umkm-modus 2.png" 
                     className="absolute top-0 -translate-y-1/2 left-1/2 transform -translate-x-1/2 w-20 h-20 object-contain"
@@ -385,7 +385,7 @@ export default function UMKM() {
                   <h2 className="font-semibold md:text-md text-sm mb-1 mt-9 text-center">Modus Survei atau Pendataan Usaha</h2>
                   <h2 className="text-justify md:text-md text-sm mb-1 text-center flex-grow">Pelaku berpura-pura melakukan survei dari dinas atau koperasi dan meminta data sensitif seperti NIK, PIN, atau OTP.</h2>
                 </div>
-                <div className="flex flex-col w-fit text-black p-4 rounded-lg bg-gray-300 relative transition-transform duration-300 hover:scale-110">
+                <div className="md:w-full w-xs flex flex-col w-fit text-black p-4 rounded-lg bg-gray-300 relative transition-transform duration-300 hover:scale-110">
                   <img 
                     src="/umkm-modus 3.png" 
                     className="absolute top-0 -translate-y-1/2 left-1/2 transform -translate-x-1/2 w-20 h-20 object-contain"
@@ -394,8 +394,8 @@ export default function UMKM() {
                   <h2 className="text-justify md:text-md text-sm mb-1 text-center flex-grow">Korban diajak gabung komunitas &quot;UMKM sukses&quot; dengan janji keuntungan besar, tetapi ternyata skema tipu-tipu seperti arisan bodong.</h2>
                 </div>
               </div>
-              <div className="md:min-w-3xl min-w-md gap-10 md:gap-5 md:justify-between items-stretch mt-7 flex flex-col md:flex-row">
-                <div className="flex flex-col w-fit text-black p-4 rounded-lg bg-gray-300 relative transition-transform duration-300 hover:scale-110">
+              <div className="gap-10 md:gap-5 justify-center items-center md:items-stretch mt-7 flex flex-col md:flex-row">
+                <div className="md:w-full w-xs flex flex-col w-fit text-black p-4 rounded-lg bg-gray-300 relative transition-transform duration-300 hover:scale-110">
                   <img 
                     src="/umkm-modus 4.png" 
                     className="absolute top-0 -translate-y-1/2 left-1/2 transform -translate-x-1/2 w-20 h-20 object-contain"
@@ -403,7 +403,7 @@ export default function UMKM() {
                   <h2 className="font-semibold md:text-md text-sm mb-1 mt-9 text-center">Modus Penjualan Alat Usaha Fiktif</h2>
                   <h2 className="text-justify md:text-md text-sm mb-1 text-center flex-grow">Pelaku menjual alat usaha murah lewat grup online, tapi setelah dibayar, barang tak dikirim dan penjual hilang.</h2>
                 </div>
-                <div className="flex flex-col w-fit text-black p-4 rounded-lg bg-gray-300 relative transition-transform duration-300 hover:scale-110">
+                <div className="md:w-full w-xs flex flex-col w-fit text-black p-4 rounded-lg bg-gray-300 relative transition-transform duration-300 hover:scale-110">
                   <img 
                     src="/umkm-modus 5.png" 
                     className="absolute top-0 -translate-y-1/2 left-1/2 transform -translate-x-1/2 w-20 h-20 object-contain"
@@ -429,12 +429,12 @@ export default function UMKM() {
             </div>
           </div>
 
-          <div className="flex flex-col gap-5 md:gap-3 xl:max-w-3xl max-w-lg items-center justify-items-center" data-aos="fade-up">
+          <div className="flex flex-col gap-5 md:gap-3 items-center justify-items-center" data-aos="fade-up">
             <h1 className="text-lg md:text-xl mb-4 mt-4 text-[var(--ijo)] bg-white p-2 rounded-full shadow-black shadow-lg/40 w-fit">
               Apa Hal yang <strong>Harus</strong> Dilakukan?
             </h1>
             <div className="flex flex-col gap-5">
-              <div className="md:max-w-3xl max-w-xl gap-5 justify-center items-center mt-3 flex flex-wrap">
+              <div className="md:max-w-3xl max-w-lg gap-5 justify-center items-center mt-3 flex flex-wrap">
                 <div className="flex flex-col max-w-3xs text-black p-3 rounded-lg border border-[var(--ijo)] border-2 relative">
                   <img 
                     src="/warn.png" 

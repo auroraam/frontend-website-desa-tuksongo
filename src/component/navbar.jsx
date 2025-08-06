@@ -32,17 +32,20 @@ export default function Navbar() {
     { label: 'Destinasi Wisata', href: '/wisata' },
     { label: 'UMKM', href: '/umkm' },
     { label: 'Kesehatan', href: '/kesehatan' },
+    { label: 'Peternakan', href: '/peternakan' },
   ]
 
   let bgColorClass = 'oren-bg'; // default
   if (currentPath.includes('/wisata')) bgColorClass = 'biru-bg';
   else if (currentPath.includes('/umkm')) bgColorClass = 'ijo-bg';
   else if (currentPath.includes('/kesehatan')) bgColorClass = 'coklat-bg';
+  else if (currentPath.includes('/peternakan')) bgColorClass = 'oren-bg';
 
   let afterBgColorClass = 'after:bg-[var(--oren)]'; // default
   if (currentPath.includes('/wisata')) afterBgColorClass = 'after:bg-[var(--biru)]';
   else if (currentPath.includes('/umkm')) afterBgColorClass = 'after:bg-[var(--ijo)]';
   else if (currentPath.includes('/kesehatan')) afterBgColorClass = 'after:bg-[var(--coklat)]';
+  else if (currentPath.includes('/peternakan')) afterBgColorClass = 'after:bg-[var(--oren)]';
 
   return (
     <nav className={`fixed top-0 left-0 w-full z-50 ${bgColorClass} flex items-center justify-between`}>

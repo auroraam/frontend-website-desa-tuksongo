@@ -33,7 +33,7 @@ export default function Kesehatan() {
       <div className="relative py-10 px-8 md:px-16 bg-white overflow-hidden">
         <div className="absolute inset-0 bg-[url('/background.png')] bg-repeat-y bg-center bg-[length:auto_auto] opacity-20 pointer-events-none z-0"></div>
         <div className="relative z-10 justify-items-center">
-          <h2 className="text-lg md:text-3xl mb-4 mt-5">
+          <h2 className="text-sm sm:text-xl md:text-3xl mb-4 mt-5">
             <span className="bg-[var(--coklat)] text-white px-4 py-1 rounded-full" data-aos='fade-up'>
               <span className="font-bold">Cegah Stunting</span>, Wujudkan Generasi Hebat
             </span>
@@ -68,7 +68,7 @@ export default function Kesehatan() {
                   className={`text-center bg-white text-[var(--coklat)] border border-2 border-[var(--coklat)] p-2 rounded-lg transition-transform duration-200 ${isActive("Jateng") ? "scale-110" : "hover:scale-110"}`}
                 >
                   <h2 className="font-semibold text-3xl">8.6%</h2>
-                  <p>Angka Stunting</p><p>di Provindi</p><p>Jawa Tengah</p>
+                  <p>Angka Stunting</p><p>di Provinsi</p><p>Jawa Tengah</p>
                 </div>
               </div>
               {activeStatistik === "Magelang" ? (
@@ -126,60 +126,60 @@ export default function Kesehatan() {
             <h1 className="text-lg md:text-xl mb-4 mt-2 text-[var(--coklat)] bg-white p-2 rounded-full shadow-black shadow-lg/40 w-fit">
               Cara Mengatasi <strong>Stunting</strong>
             </h1>
-            <div className="flex flex-col xl:max-w-xl max-w-lg items-center" data-aos="fade-up">
+            <div className="flex flex-col xl:max-w-xl max-w-sm items-center" data-aos="fade-up">
               <div className="flex flex-row gap-5">
                 <div 
                   onClick={() => setActiveCara("Nutrisi")}
-                  className={`text-sm font-semibold text-center bg-white text-[var(--coklat)] border border-2 border-[var(--coklat)] p-2 rounded-lg transition-transform duration-200 ${isActive2("Nutrisi") ? "scale-110" : "hover:scale-110"}`}
+                  className={`text-xs md:text-sm font-semibold text-center bg-white text-[var(--coklat)] border border-2 border-[var(--coklat)] p-2 rounded-lg transition-transform duration-200 ${isActive2("Nutrisi") ? "scale-110" : "hover:scale-110"}`}
                 >
                   <img 
                     src="/1.png"
-                    className="mx-auto w-20 h-20 object-contain"
+                    className="mx-auto w-10 h-10 md:w-20 md:h-20 object-contain"
                   />
                   <p>Peningkatan</p><p>Nutrisi dan Gizi</p>
                 </div>
                 <div 
                   onClick={() => setActiveCara("Sanitasi")}
-                  className={`text-sm font-semibold text-center bg-white text-[var(--coklat)] border border-2 border-[var(--coklat)] p-2 rounded-lg transition-transform duration-200 ${isActive2("Sanitasi") ? "scale-110" : "hover:scale-110"}`}
+                  className={`text-xs md:text-sm font-semibold text-center bg-white text-[var(--coklat)] border border-2 border-[var(--coklat)] p-2 rounded-lg transition-transform duration-200 ${isActive2("Sanitasi") ? "scale-110" : "hover:scale-110"}`}
                 >
                   <img 
                     src="/2.png"
-                    className="mx-auto w-20 h-20 object-contain"
+                    className="mx-auto w-10 h-10 md:w-20 md:h-20 object-contain"
                   />
                   <p>Sanitasi dan</p><p>Lingkungan</p>
                 </div>
                 <div 
                   onClick={() => setActiveCara("Asuh")}
-                  className={`text-sm font-semibold text-center bg-white text-[var(--coklat)] border border-2 border-[var(--coklat)] p-2 rounded-lg transition-transform duration-200 ${isActive2("Asuh") ? "scale-110" : "hover:scale-110"}`}
+                  className={`text-xs md:text-sm font-semibold text-center bg-white text-[var(--coklat)] border border-2 border-[var(--coklat)] p-2 rounded-lg transition-transform duration-200 ${isActive2("Asuh") ? "scale-110" : "hover:scale-110"}`}
                 >
                   <img 
                     src="/3.png"
-                    className="mx-auto w-20 h-20 object-contain"
+                    className="mx-auto w-10 h-10 md:w-20 md:h-20 object-contain"
                   />
                   <p>Pola Asuh</p><p>dan Edukasi</p>
                 </div>
                 <div 
                   onClick={() => setActiveCara("Layanan")}
-                  className={`text-sm font-semibold text-center bg-white text-[var(--coklat)] border border-2 border-[var(--coklat)] p-2 rounded-lg transition-transform duration-200 ${isActive2("Layanan") ? "scale-110" : "hover:scale-110"}`}
+                  className={`text-xs md:text-sm font-semibold text-center bg-white text-[var(--coklat)] border border-2 border-[var(--coklat)] p-2 rounded-lg transition-transform duration-200 ${isActive2("Layanan") ? "scale-110" : "hover:scale-110"}`}
                 >
                   <img 
                     src="/4.png"
-                    className="mx-auto w-20 h-20 object-contain"
+                    className="mx-auto w-10 h-10 md:w-20 md:h-20 object-contain"
                   />
                   <p>Layanan</p><p>Kesehatan</p>
                 </div>
               </div>
               {activeCara === "Nutrisi" && (
-                <p className="mt-4 text-sm sm:text-base max-w-xl text-[var(--coklat)] text-justify">Memberikan makanan <strong>bergizi lengkap dan seimbang</strong> untuk anak dan ibu hamil agar kebutuhan nutrisi terpenuhi, diantaranya dengan memberikan <strong>ASI eksklusif</strong> 6 bulan dan dilanjutkan sampai 2 tahun, <strong>MPASI bergizi tinggi</strong> dengan komposisi lengkap mulai usia 6 bulan, menerapkan <strong>&quot;Isi Piringku&quot;</strong> dengan gizi seimbang, menyusun menu harian yang kaya akan protein, vitamin, dan mineral seperti sayur, buah, sumber karbohidrat kompleks, dan protein hewani, memberikan suplemen vitamin dan mineral.</p>
+                <p className="mt-4 text-sm sm:text-base max-w-xl leading-relaxed text-[var(--coklat)] text-justify">Memberikan makanan <strong>bergizi lengkap dan seimbang</strong> untuk anak dan ibu hamil agar kebutuhan nutrisi terpenuhi, diantaranya dengan memberikan <strong>ASI eksklusif</strong> 6 bulan dan dilanjutkan sampai 2 tahun, <strong>MPASI bergizi tinggi</strong> dengan komposisi lengkap mulai usia 6 bulan, menerapkan <strong>&quot;Isi Piringku&quot;</strong> dengan gizi seimbang, menyusun menu harian yang kaya akan protein, vitamin, dan mineral seperti sayur, buah, sumber karbohidrat kompleks, dan protein hewani, memberikan suplemen vitamin dan mineral.</p>
               )}
               {activeCara === "Sanitasi" && (
-                <p className="mt-4 text-sm sm:text-base max-w-xl text-[var(--coklat)] text-justify">Dengan <strong>sanitasi yang memadai</strong> dapat mengurangi infeksi dan penyakit yang mempengaruhi penyerapan nutrisi. Hal yang dapat dilakukan diantaranya <strong>constructing jamban</strong> sehat dan memastikan penggunaannya secara rutin, menyediakan <strong>sumber air bersih</strong> yang layak dan meningkatkan kesadaran menjaga kebersihan lingkungan, cuci tangan pakai sabun, pola hidup bersih di lingkungan rumah, <strong>pengelolaan limbah</strong> yang baik</p>
+                <p className="mt-4 text-sm sm:text-base max-w-xl leading-relaxed text-[var(--coklat)] text-justify">Dengan <strong>sanitasi yang memadai</strong> dapat mengurangi infeksi dan penyakit yang mempengaruhi penyerapan nutrisi. Hal yang dapat dilakukan diantaranya <strong>constructing jamban</strong> sehat dan memastikan penggunaannya secara rutin, menyediakan <strong>sumber air bersih</strong> yang layak dan meningkatkan kesadaran menjaga kebersihan lingkungan, cuci tangan pakai sabun, pola hidup bersih di lingkungan rumah, <strong>pengelolaan limbah</strong> yang baik</p>
               )}
               {activeCara === "Asuh" && (
-                <p className="mt-4 text-sm sm:text-base max-w-xl text-[var(--coklat)] text-justify">Hal yang dapat dilakukan diantaranya membangun <strong>kebiasaan hidup sehat yang berkelanjutan</strong>, melaksanakan kegiatan <strong>edukasi di fasilitas kesehatan</strong> dan komunitas secara reguler, melibatkan kader kesehatan dan tokoh masyarakat sebagai agen perubahan perilaku, <strong>edukasi gizi</strong> untuk ibu hamil dan menyusui, <strong>stimulasi perkembangan</strong> motorik dan kognitif anak, pemantauan pertumbuhan rutin di posyandu, <strong>kelas parenting</strong> tentang pola asuh aktif</p>
+                <p className="mt-4 text-sm sm:text-base max-w-xl leading-relaxed text-[var(--coklat)] text-justify">Hal yang dapat dilakukan diantaranya membangun <strong>kebiasaan hidup sehat yang berkelanjutan</strong>, melaksanakan kegiatan <strong>edukasi di fasilitas kesehatan</strong> dan komunitas secara reguler, melibatkan kader kesehatan dan tokoh masyarakat sebagai agen perubahan perilaku, <strong>edukasi gizi</strong> untuk ibu hamil dan menyusui, <strong>stimulasi perkembangan</strong> motorik dan kognitif anak, pemantauan pertumbuhan rutin di posyandu, <strong>kelas parenting</strong> tentang pola asuh aktif</p>
               )}
               {activeCara === "Layanan" && (
-                <p className="mt-4 text-sm sm:text-base max-w-xl text-[var(--coklat)] text-justify">Tenaga kesehatan harus <strong>aktif melakukan edukasi</strong> tentang pentingnya menjaga kesehatan ibu dan anak, termasuk pentingnya nutrisi yang cukup dan pemantauan kesehatan secara rutin. Dengan <strong>pengetahuan yang baik</strong>, orang tua lebih sadar dan mampu melakukan pencegahan stunting secara langsung di lingkungan mereka, <strong>imunisasi lengkap</strong> sesuai jadwal, implementasi gizi (tablet besi, vitamin A), <strong>pemeriksaan rutin</strong> berat badan dan tinggi badan, penanganan infeksi segera</p>
+                <p className="mt-4 text-sm sm:text-base max-w-xl leading-relaxed text-[var(--coklat)] text-justify">Tenaga kesehatan harus <strong>aktif melakukan edukasi</strong> tentang pentingnya menjaga kesehatan ibu dan anak, termasuk pentingnya nutrisi yang cukup dan pemantauan kesehatan secara rutin. Dengan <strong>pengetahuan yang baik</strong>, orang tua lebih sadar dan mampu melakukan pencegahan stunting secara langsung di lingkungan mereka, <strong>imunisasi lengkap</strong> sesuai jadwal, implementasi gizi (tablet besi, vitamin A), <strong>pemeriksaan rutin</strong> berat badan dan tinggi badan, penanganan infeksi segera</p>
               )}
             </div>
           </div>
@@ -223,7 +223,7 @@ export default function Kesehatan() {
         </div>
 
         <div className="relative z-10   justify-items-center">
-          <h2 className="text-xl md:text-3xl mb-4 mt-5">
+          <h2 className="text-lg md:text-3xl mb-4 mt-5">
             <span className="bg-[var(--coklat)] text-white px-4 py-1 rounded-full" data-aos='fade-up'>
               Pariwisata Sehat, <span className="font-bold">Udara Segar</span>
             </span>
@@ -359,7 +359,7 @@ export default function Kesehatan() {
           </div>
         </div>
       </div>
-
+      
       <Footer />
     </div>
   );

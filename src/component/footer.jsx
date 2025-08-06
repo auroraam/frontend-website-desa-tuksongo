@@ -17,6 +17,7 @@ export default function Footer() {
   if (pathname.includes('/wisata')) bgColorClass = 'biru-foot';
   else if (pathname.includes('/umkm')) bgColorClass = 'ijo-foot';
   else if (pathname.includes('/kesehatan')) bgColorClass = 'coklat-foot';
+  else if (pathname.includes('/peternakan')) bgColorClass = 'oren-foot';
 
   return (
     <div>

@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Navbar from "@/component/navbar";
 import Footer from "@/component/footer";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -24,15 +25,15 @@ export default function Home() {
       <div className="relative py-10 px-8 md:px-16 bg-white overflow-hidden">
         <div className="absolute inset-0 bg-[url('/background.png')] bg-cover bg-center bg-[length:100%_100%] bg-repeat opacity-20 pointer-events-none z-0"></div>
         <div className="relative z-10 justify-items-center">
-          <h2 className="text-xl md:text-3xl mb-6">
+          <h2 className="text-lg md:text-3xl mb-6">
             <span className="bg-[var(--oren)] text-white px-4 py-1 rounded-full" data-aos='fade-up'>
               Kenali Desa <span className="font-bold">Tuksongo</span>
             </span>
           </h2>
-          <div className="flex flex-col xl:flex-row items-center gap-5 md:gap-10 justify-items-center">
-            <div className="w-48 h-48 md:w-72 md:h-72 rounded-full overflow-hidden border-8 border-[var(--oren)]" data-aos='fade-right'>
+          <div className="flex flex-col xl:flex-row items-center gap-5 justify-items-center">
+            <div className="xl:w-[40%] w-[70%] rounded-lg overflow-hidden" data-aos='fade-right'>
               <Image
-                src="/beranda.jpg"
+                src="/beranda-2.webp"
                 alt="Sawah"
                 width={400}
                 height={400}
@@ -64,6 +65,29 @@ export default function Home() {
                 dalam pengembangan <strong>kawasan Borobudur</strong> sebagai destinasi pariwisata berkelanjutan berbasis masyarakat.
               </p>
               {/* kamu bisa lanjutkan sesuai isi teks kamu */}
+            </div>
+          </div>
+
+          <div className="xl:max-w-3xl max-w-lg mx-auto justify-center" data-aos="fade-up">
+            <div className="flex sm:flex-row flex-col sm:gap-5 items-center justify-center justify-items-center">
+              <Link href="/wisata">
+              <h1 className="text-lg mb-4 mt-2 text-[var(--biru)] bg-white p-2 text-center rounded-3xl shadow-black shadow-lg/40 w-fit">
+                Jelajahi Wisata Desa <strong>Tuksongo</strong>
+              </h1></Link>
+              <Link href="/umkm">
+              <h1 className="text-lg mb-4 mt-2 text-[var(--ijo)] bg-white p-2 text-center rounded-3xl shadow-black shadow-lg/40 w-fit">
+                Jelajahi UMKM Desa <strong>Tuksongo</strong>
+              </h1></Link>
+            </div>
+            <div className="flex sm:flex-row flex-col sm:gap-5 items-center justify-center justify-items-center">
+              <Link href="/kesehatan">
+              <h1 className="text-lg mb-4 mt-2 text-[var(--coklat)] bg-white p-2 text-center rounded-3xl shadow-black shadow-lg/40 w-fit">
+                Jelajahi Edukasi <strong>Kesehatan</strong>
+              </h1></Link>
+              <Link href="/peternakan">
+              <h1 className="text-lg mb-4 mt-2 text-[var(--oren)] bg-white p-2 text-center rounded-3xl shadow-black shadow-lg/40 w-fit">
+                Jelajahi Edukasi <strong>Peternakan</strong>
+              </h1></Link>
             </div>
           </div>
         </div>

@@ -223,7 +223,7 @@ export default function Wisata() {
       <div className="relative py-10 px-8 md:px-16 bg-white overflow-hidden">
         <div className="absolute inset-0 bg-[url('/background.png')] bg-repeat-y bg-center bg-[length:auto_auto] opacity-20 pointer-events-none z-0"></div>
         <div className="relative z-10 justify-items-center">
-          <h2 className="text-xl md:text-3xl mb-4 mt-5">
+          <h2 className="text-lg md:text-3xl mb-4 mt-5">
             <span className="bg-[var(--biru)] text-white px-4 py-1 rounded-full" data-aos='fade-up'>
               Wisata Desa <span className="font-bold">Tuksongo</span>
             </span>
@@ -260,7 +260,7 @@ export default function Wisata() {
         </div>
 
         <div className="relative z-10 flex flex-col items-center">
-          <h2 className="text-xl md:text-3xl mb-5 mt-5">
+          <h2 className="text-lg md:text-3xl mb-5 mt-5">
             <span className="bg-[var(--biru)] text-white px-4 py-1 rounded-full" data-aos='fade-up'>
               <span className="font-bold">Paket Wisata</span> Desa Tuksongo
             </span>
@@ -287,7 +287,7 @@ export default function Wisata() {
                     <div
                       key={index}
                       onClick={() => setSelectedPaket(item)}
-                      className="bg-gray-300 text-black px-4 py-2 rounded-lg shadow-md text-center w-fit cursor-pointer"
+                      className="bg-gray-300 text-sm md:text-lg text-black px-1 md:px-4 py-2 rounded-lg shadow-md text-center w-fit cursor-pointer"
                     >
                       {item.nama_pariwisata}
                     </div>
@@ -316,6 +316,9 @@ export default function Wisata() {
                   <p className="mb-2 whitespace-pre-line">
                     {selectedPaket.deskripsi_pariwisata}
                   </p>
+                  <p className="mb-2 whitespace-pre-line font-semibold">
+                    Hubungi kami: @desawisatatuksongo on Instagram
+                  </p>
                 </div>
               </div>
             ) : (
@@ -325,12 +328,12 @@ export default function Wisata() {
         </div>
 
         <div className="relative z-10 flex flex-col items-center">
-          <h2 className="text-xl md:text-3xl mb-4 mt-8">
+          <h2 className="text-lg md:text-3xl mb-4 mt-8">
             <span className="bg-[var(--biru)] text-white px-4 py-1 rounded-full" data-aos='fade-up'>
               Pendataan Pariwisata
             </span>
           </h2>
-          <p className="text-black">Berikut adalah list pariwisata yang belum disetujui:</p>
+          <p className="text-black text-center">Berikut adalah list pariwisata yang belum disetujui:</p>
           <div className='overflow-x-auto mt-3'>
             <table className='w-full bg-white text-center rounded-lg shadow border border-gray'>
               <thead className='bg-[var(--biru)]'>
@@ -371,7 +374,7 @@ export default function Wisata() {
         </div>
 
         <div className="relative z-10 flex flex-col items-center">
-          <h2 className="text-xl md:text-3xl mb-4 mt-8">
+          <h2 className="text-lg md:text-3xl mb-4 mt-8">
             <span className="bg-[var(--biru)] text-white px-4 py-1 rounded-full" data-aos='fade-up'>
               Pengenalan <span className="font-bold">Agro Eko Wisata</span>
             </span>
